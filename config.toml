@@ -13,7 +13,7 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  header_image = "img/home-bg-jeep.jpg"
+  header_image = "images/mountains.jpeg"
   SEOTitle = "Cole Feely Blog"
   description = "description"
   keyword = "keyword"
