@@ -13,7 +13,7 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  header_image = "images/background.jpeg"
+  header_image = "images/background7.jpeg"
   SEOTitle = ""
   description = "description"
   keyword = "keyword"
@@ -82,7 +82,7 @@ home = ["HTML", "RSS", "Algolia"]
   
   [[params.addtional_menus]]
   title =  "Resume"
-  href =  "/resume/"
+  href =  "/resume"
   [[params.addtional_menus]]
   title =  "ARCHIVE"
   href =  "/top/archive/"
