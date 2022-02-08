@@ -79,16 +79,34 @@ home = ["HTML", "RSS", "Algolia"]
   title =  "Bookmark format, this is the title"
   href =  "hlink"
  
-  
+[taxonomies]
+  category = 'categories'
+  series = 'series'
+  weightlifting = 'weightlifting'
+  tag = 'tags'
+#[permalinks]
+#    categories =  "/:section/:slug"
+
+
+
   [[params.addtional_menus]]
   title =  "Resume"
-  href =  "/resume"
+  href =  "/post/resume"
   [[params.addtional_menus]]
-  title =  "ARCHIVE"
-  href =  "/top/archive/"
+  title =  "WEIGHTLIFTING"
+  href =  "/weightlifting/"
   [[params.addtional_menus]]
   title =  "ABOUT"
   href =  "/top/about/"
+
+
+  #categories = ['categories']
+  #project_url = 'http://ColeFeely6.github.io/weightlifting/'
+  #series = ['series']
+  #slug = 'hugo'
+  #tags = ['Development', 'Go', 'fast', 'Blogging']
+  #title = 'TestWeight'
+
 
 [outputFormats.Algolia]
 baseName = "algolia"
@@ -106,3 +124,4 @@ params = ["categories", "tags"]
     startLevel = 1
   [markup.highlight]
     style = "dracula"
+
